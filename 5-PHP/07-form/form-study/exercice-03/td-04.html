@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Inscription à jobSearch.com</h1>
+
+<p>Contrôles de formulaire</p>
+
+<p>Dans le formulaire « inscription », les informations saisies par l'utilisateur seront regroupées en quatre sections : informations de base, éducation, expérience de travail et pièces jointes. Ajoutez les éléments suivants à chaque groupe du formulaire :</p>
+
+<h3>Section Informations de base (<em>basic information</em>)</h3> 
+<table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td> Courriel (<em>e-mail</em>)</td> 
+     <td> De type courriel avec directement le focus dedans, ce champ est aussi obligatoire. L'utilisateur a besoin de l'adresse de courriel pour se connecter au site.</td> 
+    </tr> 
+    <tr> 
+     <td>Mot de passe (<em>password</em>)</td> 
+     <td>De type "mot de passe" et obligatoire.</td> 
+    </tr> 
+    <tr> 
+     <td>Retaper le mot de passe (<em>password</em>)</td> 
+     <td>De type "mot de passe" et obligatoire.</td> 
+    </tr> 
+    <tr> 
+     <td>Prénom (<em>firstname</em>)</td> 
+     <td>De type texte, l'utilisateur doit entrer son prénom obligatoirement.</td> 
+    </tr> 
+    <tr> 
+     <td>Le nom (<em>lastname</em>)</td> 
+     <td>De type texte, l'utilisateur doit entrer son nom obligatoirement.</td> 
+    </tr> 
+    <tr> 
+     <td>Numéro de téléphone (<em>Phone Number</em>)</td> 
+     <td>De type<strong>tel</strong>, l'utilisateur doit entrer son nom numéro de téléphone. Ce champ doit montrer un exemple de numéro qui s'affacera au focus.</td> 
+    </tr> 
+    <tr> 
+     <td>Adresse (<em>Address</em>)</td> 
+     <td>De type texte, l'adresse de résidence est obligatoire.</td> 
+    </tr> 
+    <tr> 
+     <td>Ville (<em>City</em>)</td> 
+     <td>De type texte, le nom de la ville est requis.</td> 
+    </tr> 
+    <tr> 
+     <td>Province / état (<em>States</em>)</td> 
+     <td>Menu déroulant constitué des nom de région (ex: Provence-Alpes-Côte d'Azur)</td> 
+    </tr> 
+    <tr> 
+     <td>Pays (<em>Country</em>)</td> 
+     <td>Menu déroulant constitué des noms de pays suivis de leur code iso2, ex: France (FR)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+
+  <h3>Section formation (<em>Education</em>)</h3> 
+  <table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td>Ecole (<em>School</em>)</td> 
+     <td>De type texte et obligatoire. L'école fréquenté ou la dernière école fréquentée.</td> 
+    </tr> 
+    <tr> 
+     <td>Programme (<em>Program</em>)</td> 
+     <td>De type texte et obligatoire. Type d'étude.</td> 
+    </tr> 
+    <tr> 
+     <td>Niveau de formation (<em>Education Level</em>)</td> 
+     <td>Menu déroulant constitué des niveaux RNCP de formation (de 3 à 8, soit CAP/BEP/MC, BAC, BTS/DUT, Licence, Master, Doctorat). Choisir le plus élevé.</td> 
+    </tr> 
+    <tr> 
+     <td>Statut de formation (<em>Education status</em>)</td> 
+     <td>De type bouton radio, on doit pourvoir choisir entre : reçu, non reçu, en cours de formation</td> 
+    </tr> 
+    <tr> 
+     <td>Date de l'obtention du diplôme (<em>Graduation date</em>)</td> 
+     <td>De type texte et obligatoire, l'utilisateur doit pouvoir mettre une date dans le format qu'il souhaite.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  
+  <h3>Section de l'expérience professionnelle (<em>Work Experience</em>)</h3> 
+  <table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td>Employeur (<em>Employer</em>)</td> 
+     <td>De type texte, the current or last employer of the student, <strong>optional</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td>Titre de la fonction (<em>job Title</em>)</td> 
+     <td>De type texte, the job title of the student in the above company, <strong>optional</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td>Fonction (<em>Job Duty</em>)</td> 
+     <td>De type zone de texte et optionnel. On décrit brièvement la mission et les responsabilités de l'emploi.</td> 
+    </tr> 
+    <tr> 
+     <td>Expérience professionnelle (<em>Worked Year</em>)</td> 
+     <td>Du type tirette et optionnel. Permet de préciser le nombre d'année d'expérience professionnelle de 1 à 20 ans.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  
+  <h3>Section des fichiers (<em>Attachements</em>)</h3>
+  <table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td>Pièces jointes</td> 
+     <td>Du type fichier, l'utilisateur peut transmettre un ou plusieurs fichiers (ex: cv.pdf)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  
+  <p>Annuler &amp; Envoyer </p> 
+  <table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td>Annuler (<em>Reset</em>)</td> 
+     <td>De type bouton, il permet de remettre à zéro le formulaire.</td> 
+    </tr> 
+    <tr> 
+     <td>Envoyer (<em>Submit</em>)</td> 
+     <td>De type bouton, il permet de soumettre le formulaire.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  
+  <p>Tous les champs/contrôles du formulaire doivent avoir des attributs <strong>id</strong> et <strong>name</strong> ainsi qu'un élément <strong>label</strong> associé si possible. Les étiquettes des champs obligatoires doivent être suivies d'un <strong>astérisque rouge (*)</strong>.</p>
+  
+  <table cellspacing="0" cellpadding="8" border="1"> 
+   <tbody> 
+    <tr> 
+     <td>"<strong>Prénom</strong>" and "<strong>Nom</strong>"</td> 
+     <td>• Doivent être présent et ne peuvent pas être vide après le nettoyage des carractères vides.<br>
+         • Seuls les carractères alphabétiques sont autorisés en minuscule et en majuscule, <br>
+         • l'apostrophe ('), le tiret. Et il doit y avoir au moins 1 caractère alphabétique.</td> 
+    </tr> 
+    <tr> 
+     <td>"<strong>Mot de passe</strong>" <strong>et</strong> "<strong>Retaper le mot de passe</strong>"</td> 
+     <td>• Les mots de passe doivent contenir à minima un caractère minuscule et un majuscule.<br>
+         • Au moins un chiffre<br>
+         • Il doit avoir au moins 8 caractères de long<br>
+         • La valeur des deux champs doit être strictement identique et non vide.</td> 
+    </tr> 
+    <tr> 
+     <td>Numéro de téléphone</td> 
+     <td>• il est obligatoire<br>
+         • Il doit être au format international (+33 au lieu de 0)<br>
+         • Le numéro de téléphone ne peut pas être constitué de 0 ou du même chiffre ainsi que d'une suite comme 123456879 et 987654321.</td> 
+    </tr> 
+    <tr> 
+     <td>Status de formation</td> 
+     <td>• Une des options doit être sélectionnée.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+</body>
+</html>

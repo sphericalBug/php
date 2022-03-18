@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* css reset de Eric A. Meyer */
+@import "reset.css";
+
+/* /////////// BASE /////////// */
+html, body {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+a:link {color: green; text-decoration: underline;}
+a:visited {color: grey;}
+a:hover {color: red; text-decoration: none;}
+a:active {color:red;}
+
+
+/* /////////// LAYOUT /////////// */
+.page {width:100%; height:100%;}
+.menu {
+    display:block;
+    position:fixed; top:0; left:0;
+    height: 100%;  width: 120px;
+    background-color: yellow;
+    border-right: 1px solid #EEE;
+}
+.wrapper {
+    position:relative;
+    margin-left: 120px;;
+    display:block; width:calc(100% - 120px);
+}
+header {
+    min-height:120px;
+    background-color: skyblue;
+    text-align:center;
+}
+main {min-height:400px; background-color: lightgreen;}
+footer {min-height: 120px; padding-top:16px; background-color: tomato;}
+
+
+/* /////////// MODULE /////////// */
+.menu__content {
+    position:absolute; top:40%; left:50%; 
+    transform: translate(-50%, -50%);
+}
+.header__title {padding:30px 0;}
+/* Sections --------------------- */
+section {margin:0; padding:12px; }
+section h1 {text-align:center;}
+.about blockquote {margin:20px;}
+.about p {margin:20px 0;}
+
+/* page work ---------------------*/
+.portfolio {margin:20px; display: flex; flex-flow: row wrap;}
+.card {
+    margin:4px;
+    width:120px; height:160px; 
+    text-align: center;
+    border:thin solid blue;
+}
+.card h3 {text-align:center;}
+.card img {width:100px; margin:0 auto;}
+.card span {font-size: small;}
+.card a {font-size: small; text-decoration: none; }
+.card a:hover {text-decoration:underline overline;}
+
+/* page resume ----------------- */
+.resume > h2 {margin:8px 0; font-weight: 700;}
+
+/* page contact ----------------- */
+fieldset {margin:20px;} 
+legend {text-align:center;}
+label {display: inline-block; width:100px;}
+input, textarea {width:240px;}
+input[type="submit"] {margin-left:104px; }
+
+/* /////////// STATE /////////// */
+
+/* /////////// THEME /////////// */
+
+/* /////////// CHANGING STATE /////////// */
